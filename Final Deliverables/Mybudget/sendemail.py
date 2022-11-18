@@ -7,7 +7,7 @@ SUBJECT = "personal expense tracker"
 s = smtplib.SMTP('smtp.gmail.com', 587)
 
 def sendmail(TEXT,email):
-    from_email = Email("priyakumaran181@gmail.com") 
+    from_email = Email("surendarkumar1719@gmail.com") 
     to_email = To(email) 
     subject = "Sending with SendGrid is Fun"
     content = Content("text/plain",TEXT)
